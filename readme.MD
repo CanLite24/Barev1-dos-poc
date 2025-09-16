@@ -1,1 +1,1 @@
-Barev1 does not protect against recursive self calling, leading to infinite call stacks and resource exhuastion.
+Bare does not protect against keep-alive based resource depletion attacks. These script exploit that by opening thousands of keep-alive connections, and making them 1 time recursive to maximize system resource load.
